@@ -1,5 +1,5 @@
 window.sr = new ScrollReveal();
-const hero = document.querySelector(".features-list");
+
 
 console.log(hero);
 // ===HOME Caption===

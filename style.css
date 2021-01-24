@@ -1,5 +1,5 @@
 /* General rules */
-body{
+body {
   overflow-x: hidden;
   background-color: lightgrey;
   font-family: 'Courier New', Courier, monospace;
@@ -8,7 +8,7 @@ body{
 
 
 /* Navigation */
-.navbar{
+.navbar {
   text-transform: uppercase;
   font-size: 0.9rem;
   background-color: black;
@@ -16,87 +16,89 @@ body{
   font-weight: bold;
 }
 
-.navbar-brand>img{
+.navbar-brand>img {
   height: 1.8rem;
 }
 
-.navbar-nav li{
+.navbar-nav li {
   padding-right: 0.6rem;
 }
 
-.navbar-nav .nav-item .nav-link{
+.navbar-nav .nav-item .nav-link {
   color: white;
   padding-top: 0.6rem;
+  transition: 0.5s;
 }
 
-.navbar-nav .nav-item .nav-link:hover{
+.navbar-nav .nav-item .nav-link:hover {
   color: lime;
+  transform: scale(1.2);
 }
 
 /* landing */
-.home-inner{
-  background-image: url(img/computers.png);
+.home-inner {
+  background-image: url(img/covid.png);
   background-size: contain;
 }
 
-.caption{
+.caption {
   width: 100%;
   max-width: 100%;
   position: absolute;
   top: 40%;
-  color:white;
+  color: white;
   text-transform: uppercase;
   z-index: 1;
 }
 
-.caption h1{
+.caption h1 {
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
   padding-bottom: 1rem;
 }
 
-.caption h3{
+.caption h3 {
   padding-bottom: 1rem;
 }
 
 /* Course */
-#course{
+#course {
   background-color: lightgrey;
 }
 
 /* Features */
-.jumbotron{
+.jumbotron {
   color: black;
   padding-bottom: 0;
-  padding-top:0;
-  margin-bottom:0;
+  padding-top: 0;
+  margin-bottom: 0;
 }
 
-.features-list{
+.features-list {
   list-style: none;
 }
 
-#features .line{
+#features .line {
   margin-bottom: 0;
 }
 
 /* Resources */
 
-#resources .resource h3{
+#resources .resource h3 {
   text-decoration: underline;
 }
 
-#resources .resource{
+#resources .resource {
   border: 1px dashed darkgrey;
 }
 
 /* Clients */
-.client{
+.client {
   max-width: 90%;
   border-radius: 50%;
 }
 
-.blockquote p{
+.blockquote p {
   width: 70%;
   font-size: 0.7em;
   margin: 0 auto;
@@ -107,17 +109,20 @@ footer {
   border: 2px dashed darkgrey;
 }
 
-footer, footer a{
+footer,
+footer a {
   color: white;
 }
 
-footer img{
- height: 1.8rem;
- margin: 0.5rem 0;
+footer img {
+  height: 1.8rem;
+  margin: 0.5rem 0;
 }
 
-footer a:hover, footer p, footer h3{
-  color:black;
+footer a:hover,
+footer p,
+footer h3 {
+  color: black;
 }
 
 /* Style for newsletter  START*/
@@ -126,29 +131,31 @@ footer a:hover, footer p, footer h3{
   text-align: center;
   margin: 0 auto;
 }
+
 #inputEmail {
   width: 50%;
   text-align: center;
   margin: 0 auto;
 }
+
 /* Style for newsletter  END*/
 
 /* Own media queries */
-@media all and (max-width: 767px){
-  .client{
+@media all and (max-width: 767px) {
+  .client {
     width: 50%;
     max-width: 30vw;
   }
 }
 
-@media all and (min-width: 768px) and (max-width:991px){
- .client{
-   width: 70%;
- }
+@media all and (min-width: 768px) and (max-width:991px) {
+  .client {
+    width: 70%;
+  }
 }
 
-@media all and (min-width:992px){
-  .client{
+@media all and (min-width:992px) {
+  .client {
     min-width: 15vw;
   }
 }

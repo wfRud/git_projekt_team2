@@ -120,6 +120,18 @@ footer a:hover, footer p, footer h3{
   color:black;
 }
 
+/* Style for newsletter  START*/
+#forename {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+#inputEmail {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+/* Style for newsletter  END*/
 
 /* Own media queries */
 @media all and (max-width: 767px){

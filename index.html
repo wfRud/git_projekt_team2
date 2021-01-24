@@ -75,7 +75,7 @@
     <!-- Start section Course -->
     <div id="course">
       <div class="col-12 text-center">
-        <p>Zobacz więcej na temat tego kursu:</p>
+        <p class="course__title">Zobacz więcej na temat tego kursu:</p>
         <a
           class="btn btn-secondary btn-md"
           href="https://www.kozminski.edu.pl/pl/oferta-edukacyjna/studia-podyplomowe/frontend-development-z-react"
@@ -90,12 +90,16 @@
     <!-- Start section features -->
     <div id="features">
       <div class="jumbotron text-center">
-        <h2>Poznaj gorące technologie:</h2>
+        <h2 class="jumbotron__title">Poznaj gorące technologie:</h2>
         <ul class="features-list">
-          <li>Tworzenie layoutów html/css</li>
-          <li>Programowanie w Javascript wg. EC</li>
-          <li>React</li>
-          <li>React Native</li>
+          <li class="features-list__item item-1">
+            Tworzenie layoutów html/css
+          </li>
+          <li class="features-list__item item-2">
+            Programowanie w Javascript wg. EC
+          </li>
+          <li class="features-list__item item-3">React</li>
+          <li class="features-list__item item-4">React Native</li>
         </ul>
         <hr class="line" />
       </div>
@@ -160,7 +164,7 @@
         </div>
 
         <div class="row text-center">
-          <div class="col-md-6">
+          <div class="client-1 col-md-6">
             <div class="row">
               <div class="col-lg-4">
                 <img class="client" src="img/client1.png" />
@@ -181,7 +185,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="client-2 col-md-6">
             <div class="row">
               <div class="col-lg-4">
                 <img class="client" src="img/client2.png" />
@@ -210,7 +214,7 @@
     <!-- Start section contact -->
     <div id="contact">
       <footer>
-        <div class="col-12 text-center">
+        <div class="footer_elements col-12 text-center">
           <h3 class="heading">Kontakt do twórców:</h3>
           <img src="img/Logo.jpeg" alt="LOGO" />
           <p>Lorem ipsum dolor sit amet.</p>
@@ -236,8 +240,11 @@
       integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+    <script src="js/animation.js"></script>
     <!--- End of Script Source Files -->
   </body>
 </html>
